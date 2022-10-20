@@ -30,7 +30,6 @@ body{
 }
 
 .divMain1 {  
-    border: 2px dashed red;
     height: 120px;
     display: flex;
     flex-direction: column;
@@ -38,7 +37,6 @@ body{
 }
 
 img{
-    border: 2px dashed red;
     max-width: 300%;
 }
 

@@ -1,0 +1,11 @@
+En el HTML cuando necesitamos tener un Fondo para comparar:
+
+<body>
+    <body background="./assets/images/Propuesta 1 mobile.jpg"></body>
+    <body background="./assets/images/Propuesta 1 web.jpg"></body>
+</body>
+</html>
+
+
+        <div class="div-main05-triangle-left"></div>
+        <div class="div-main05-triangle-right"></div>

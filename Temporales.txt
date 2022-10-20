@@ -1,0 +1,109 @@
+    <div class="divMain9">
+        <div class="divMain9Grd">
+            <div class="habilityBox habCellA habCellAll">                
+                <h2>Mis Habilidades</h2>
+            </div>
+            <div class="habilityBox habCellB habCellAll">
+                <div class="letterboxes"><span class="letter1" style="float:right">80%</span>Web design</div>
+            </div>
+            
+            
+            <div class="box c">
+                <div class="habilityBox habCellC habCellAll">
+                    <div class="letterboxes"><span class="letter1" style="float:right">95%</span>Interaction design</div>
+                </div>
+            </div>
+            
+            
+            
+            
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+.divMain9 {  
+    border: 2px dashed red;
+    height: 475px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+
+.divMain9Grd {
+    width: 75%; height: 90%;
+    display: grid; grid-gap: 0px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    /*border: 2px dashed black;*/
+    /*color: var(--white);*/
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+.habilityBox {
+    color: var(--gray);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+.container {
+    background-color: var(--beige);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.skill {
+    background-color: var(--green);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.items {
+    text-align: left;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.items1 {
+    text-align: right;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+
+
+.letter1 { color: var(--green); font-size: 20px; font-weight: bold; }
+
+.item1 { width: 80%; }
+.item2 { width: 95%; }
+.item3 { width: 80%; }
+.item4 { width: 75%; }
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+

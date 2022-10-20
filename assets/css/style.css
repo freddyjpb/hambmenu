@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --yellow: #F1A600;
+    --dark-grey: #1F1D2C;
+    --dark-blue: #242635;
+    --light-grey: #E5E5E5;
+    --white: #FFFFFF;
+
+    --green: #197F5B;
+    --orange: #EF9919;
+    --beige: #EDE4DB;
+    --gray:#484647;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+
+
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--green);
+    color: white;
+    font-family: 'Poppins';
+    font-size: 40px; 
+}
+
+.divMain1 {  
+    border: 2px dashed red;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;       
+}
+
+img{
+    border: 2px dashed red;
+    max-width: 300%;
+}
+
+.nav{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.nav-icono {
+    background-color: transparent;
+}
+
+label>img{
+    width: 30px;
+}
+
+#btn-menu{
+    visibility: hidden;
+}
+
+.nav-menu{
+    position: absolute;
+    background: var(--green);
+    width: 100%;
+    top: 80px;
+    min-height: calc( 100vh - 80px );
+    padding: 1.5rem 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    display: flex;
+    left: -100%;
+    transition: left .5s linear;
+}
+.nav-item{
+    list-style: none;
+    font-size: 1.25rem;
+}
+
+.nav-item > a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    padding: 20px;
+}
+
+#btn-menu:checked ~ .nav-menu{
+    left: 0;
+}
+
+.icon{
+    width: 32px;
+}
+
+.header--image{
+    max-width: 350px;
+}
+
+
+.text-accent{
+    color: var(--yellow);
+}
+
+@media screen and (min-width: 600px ) {
+    .header-information{
+        padding: 3rem 4.5rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    label{
+        display: none;
+    }
+    .nav-menu{
+        position: static;
+        flex-direction: row;
+        min-height: auto;
+        justify-content: end;
+        background-color: transparent;
+    }
+    .nav-item{
+        padding-left: 1.25rem;
+        font-size: 1rem;
+    }
+
+    .section-about{
+        padding: 3.5rem 5rem;
+    }
+
+    .education-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 2.5rem;
+    }
+
+    .experience-container{
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .section-projects{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media  screen and (min-width: 992px) {
+    
+    .header{
+        background-position: top 0 right 0;
+    }
+
+    .header-information{
+        flex-direction: row;
+    }
+
+    .social-container{
+        margin: 0;
+        justify-content: space-between;
+        max-width: 300px;
+    }
+}

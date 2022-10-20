@@ -1,0 +1,67 @@
+<div class="div-main02">
+        <h1>
+            Soy <span class="h1-accent">Freddy Parra</span>
+        </h1>
+        <h2>
+            <p>Creo, diseño y desarrollo para darle el</p>
+            <p>valor a tu producto.</p>
+        </h2>
+    </div>
+
+    <div class="div-main03">
+        <div class="photo-image">
+            <div class="photo-image-rect-izq">
+                <p class="photo-image-rect-font1">UI Designer</p>
+                <p class="photo-image-rect-font2">4 años</p>
+            </div>
+            <img class="header-ima" src="./assets/images/person 3.png" alt="">
+            <div class="photo-image-rect-der">
+                <p class="photo-image-rect-font1">Frontend Dev</p>
+                <p class="photo-image-rect-font2">1 año</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-main04">
+        <div class="div-social-networks">
+            <div class="circulo">
+                <img class="icon" src="./assets/images/Iconos/linkedin.svg" alt="">
+            </div>
+            <div class="circulo">
+                <img class="icon" src="./assets/images/Iconos/instagram.svg" alt="">
+            </div>
+            <div class="circulo">
+                <img class="icon" src="./assets/images/Iconos/twitter.svg" alt=""> 
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-main05">
+        <div class="div-main05-triangle-left"></div>
+        <div class="div-main05-triangle-right"></div>
+    </div>
+    
+    <div class="div-main06">
+        <p class="div-main06-about">Acerca de mí</p>
+        <p class="div-main06-experience">Me considero una persona eficiente y dinámica en las labores que realizo. Puntual y responsable. Soy proactivo, con gran capacidad de aprender nuevos conocimientos. Me gusta cumpolir las metas propuestas. Poseo Adaptabilidad e Integración para Trabajo en Equipo. Tengo iniciativa, Compromiso y Dedicación a lo que hago.</p>
+    </div>
+
+    <div class="div-main07">
+        <div class="div-main07-buttoncv">
+            Download CV
+        </div>
+    </div>
+
+    <div class="div-main08">
+        <p class="div-main06-about">Estudios</p>>
+        <div class="div-main08-rects">
+            <div class="div-main08-rect-Es01">
+   
+            </div>
+            <div class="div-main08-rect-Es01">
+
+            </div>
+            
+        </div>
+
+    </div>
